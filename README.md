@@ -13,9 +13,9 @@
 3. Возможность редактирования дома и комнаты
 3. Возможность удаления комнаты
 4. Возможность скрытия комнаты
-5. Добавлен сервис VentilationFanService (fan v2), обновлен сервис FanService
-6. В детальном отображении комнаты изменены местами датчики и устройства. Датчики теперь идут первые.
-7. Добавлены сервисы AtmosphericPressureSensor, NoiseSensor, VoltMeter, AmpereMeter, WattMeter, VoltAmpereMeter, KilowattHourMeter, KilowattVoltAmpereHourMeter
+5. Добавлены сервисы VentilationFanService (fan v2), AtmosphericPressureSensor, NoiseSensor, VoltMeter, AmpereMeter, WattMeter, VoltAmpereMeter, KilowattHourMeter, KilowattVoltAmpereHourMeter
+6. Обновлен сервис FanService
+7. В детальном отображении комнаты изменены местами датчики и устройства. Датчики теперь идут первые.
 8. Теперь датчики, сенсоры, температура и прочие отображаются только если добавлены в изобранное.
 
 #### Bugfix
