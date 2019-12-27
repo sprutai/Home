@@ -15,6 +15,8 @@
 4. Возможность скрытия комнаты
 5. Добавлен сервис VentilationFanService (fan v2), обновлен сервис FanService
 6. В детальном отображении комнаты изменены местами датчики и устройства. Датчики теперь идут первые.
+7. Добавлены сервисы AtmosphericPressureSensor, NoiseSensor, VoltMeter, AmpereMeter, WattMeter, VoltAmpereMeter, KilowattHourMeter, KilowattVoltAmpereHourMeter
+8. Теперь датчики, сенсоры, температура и прочие отображаются только если добавлены в изобранное.
 
 #### Bugfix
 1. Исправлено отображение длинного название комнаты в настройках устройства
