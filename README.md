@@ -39,41 +39,49 @@ C_AccessoryExtInfo(
 			l(C_Room.class), // Required
 			l(Name.class) // Optional
 	),
+	
 C_AtmosphericPressureSensor(
 			"00000003-6666-6666-6666-666666666666", //
 			l(C_CurrentAtmosphericPressure.class), // Required
 			l(Name.class) // Optional
 	),
+	
 C_NoiseSensor(
 			"00000005-6666-6666-6666-666666666666", //
 			l(C_NoiseDetected.class), // Required
 			l(Name.class, C_CurrentNoiseLevel.class) // Optional
 	),
+	
 C_VoltMeter(
 			"00000008-6666-6666-6666-666666666666", //
 			l(C_Volt.class), // Required
 			l(Name.class) // Optional
 	),
+	
 C_AmpereMeter(
 			"00000009-6666-6666-6666-666666666666", //
 			l(C_Ampere.class), // Required
 			l(Name.class) // Optional
 	),
+	
 C_WattMeter(
 			"00000010-6666-6666-6666-666666666666", //
 			l(C_Watt.class), // Required
 			l(Name.class) // Optional
 	),
+	
 C_VoltAmpereMeter(
 			"00000011-6666-6666-6666-666666666666", //
 			l(C_VoltAmpere.class), // Required
 			l(Name.class) // Optional
 	),
+	
 C_KilowattHourMeter(
 			"00000012-6666-6666-6666-666666666666", //
 			l(C_KilowattHour.class), // Required
 			l(Name.class) // Optional
 	),
+	
 C_KilowattVoltAmpereHourMeter(
 			"00000013-6666-6666-6666-666666666666", //
 			l(C_KilowattVoltAmpereHour.class), // Required
@@ -83,12 +91,21 @@ C_KilowattVoltAmpereHourMeter(
 HC(String id, boolean read, boolean write, boolean notify, String format, Float min, Float max, Float step, Integer length, String unit, String valid)
 
 C_Room("00000002-6666-6666-6666-666666666666", true, true, true, "string", null, null, null, 64, null, null),
+
 C_CurrentAtmosphericPressure("00000004-6666-6666-6666-666666666666", true, false, true, "float", 0f, 2000f, 1.0f, null, "mmHg", null),
+
 C_CurrentNoiseLevel("00000006-6666-6666-6666-666666666666", true, false, true, "float", 0f, 200f, 1.0f, null, "dB", null),
+
 C_NoiseDetected("00000007-6666-6666-6666-666666666666", true, false, true, "uint8", 0.0f, 1.0f, 1.0f, null, null, "0,1"), // {"0":"levels are normal","1":"levels are abnormal"}
+
 C_Volt("00000014-6666-6666-6666-666666666666", true, false, true, "float", 0f, 65535f, 1.0f, null, "V", null),
+
 C_Ampere("00000015-6666-6666-6666-666666666666", true, false, true, "float", 0f, 65535f, 1.0f, null, "A", null),
+
 C_Watt("00000016-6666-6666-6666-666666666666", true, false, true, "float", 0f, 65535f, 1.0f, null, "W", null),
+
 C_VoltAmpere("00000017-6666-6666-6666-666666666666", true, false, true, "float", 0f, 65535f, 1.0f, null, "VA", null),
+
 C_KilowattHour("00000018-6666-6666-6666-666666666666", true, false, true, "float", 0f, 65535f, 1.0f, null, "kWh", null),
+
 C_KilowattVoltAmpereHour("00000019-6666-6666-6666-666666666666", true, false, true, "float", 0f, 65535f, 1.0f, null, "kVAh", null);
