@@ -1,0 +1,26 @@
+# Devices
+
+- [ ] Air Purifier 
+- [x] Door
+- [ ] Doorbell
+- [x] Fan
+- [x] Fan v2
+- [ ] Faucet
+- [x] Garage Door Opener
+- [ ] Heater Cooler
+- [ ] Humidifier Dehumidifier
+- [ ] Irrigation System
+- [x] Lightbulb
+- [ ] Lock Managment
+- [x] Lock Mechanism
+- [ ] Microphone
+- [x] Outlet
+- [ ] Slat
+- [ ] Speaker
+- [ ] Security System
+- [ ] Stateless Programmable Switch
+- [x] Switch
+- [ ] Thermostat
+- [ ] Valve
+- [x] Window
+- [x] Window Covering
