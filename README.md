@@ -5,6 +5,13 @@
 
 ## Изменения
 
+### 1.0 (??)
+
+#### Feature
+1. Добавлены сервисы Carbon Monoxide Sensor, Occupancy Sensor
+
+#### Bugfix
+
 ### 1.0 (51)
 
 #### Feature
