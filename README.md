@@ -5,11 +5,12 @@
 
 ## Изменения
 
-### 1.0 (??)
+### 1.0 (52)
 
 #### Feature
-1. Добавлены сервисы Carbon Monoxide Sensor, Occupancy Sensor
-2. Статусные иконки справа от имени будут отображаться теперь только если они добавлены в избранное
+1. Добавлены сервисы: MicrophoneService SpeakerService, AirPurifierService, FaucetService, Carbon Monoxide Sensor, Occupancy Sensor
+2. Добавлена поддержка LockPhysicalControls, SwingMode, TargetState для Fan2
+3. Статусные иконки справа от имени будут отображаться теперь только если они добавлены в избранное
 
 #### Bugfix
 
